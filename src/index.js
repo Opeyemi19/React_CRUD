@@ -4,6 +4,24 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/*
+import axios from "axios";
+
+
+const API_URL = "http://192.168.1.116:8000/api/";
+
+axios
+  .get(API_URL + 'product', {})
+  .then((response) => {
+
+    console.log(response.data);
+    return response.data;
+
+  });
+
+*/
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
