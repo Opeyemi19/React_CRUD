@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 
 import CardProdui from '../components/card-produit';
-import PostProduit from './postProduit';
 
 import axios from "axios";
 
 
 
 const API_URL = "http://192.168.1.116:8000/api/";
-
-
 
 const Home = () => {
 
@@ -42,10 +39,6 @@ const Home = () => {
                         <CardProdui item={person} />
                 )
             }
-
-            <br />
-
-            <PostProduit />
 
         </div>
     );
